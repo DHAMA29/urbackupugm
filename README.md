@@ -3,7 +3,7 @@
 
 ---
 
-**Server:** Ubuntu 24.04 LTS (10.9.11.138)  
+**Server:** Ubuntu 24.04 LTS 
 **Tanggal:** Januari 2026  
 **Status:** ✅ **BERHASIL DIIMPLEMENTASIKAN**
 
@@ -67,10 +67,10 @@ Tools yang digunakan dalam pengembangan dan dokumentasi proyek ini:
 
 ```
 ┌─────────────────────────────────────────────┐
-│ Ubuntu Host 10.9.11.138                     │
+│ Ubuntu Host                                 │
 │                                             │
-│  UrBackup Client (Native)                  │
-│  └─ Reads: /backup-sources/*               │
+│  UrBackup Client (Native)                   │
+│  └─ Reads: /backup-sources/*                │
 │             ↓                               │
 │       (symlinks)                            │
 │             ↓                               │
