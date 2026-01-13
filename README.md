@@ -19,6 +19,17 @@ Membangun sistem backup dan restore terpusat menggunakan UrBackup untuk melindun
 
 **Target:** Backup otomatis dengan kemampuan restore via Web UI
 
+
+### TOOLS YANG DIGUNAKAN
+
+Tools yang digunakan dalam pengembangan dan dokumentasi proyek ini:
+
+- **Visual Studio Code (VSCode)** - Editor kode untuk mengedit file konfigurasi dan dokumentasi
+- **GitHub Copilot Agent** - Asisten AI untuk membantu coding dan troubleshooting
+- **ChatGPT** - Asisten AI untuk brainstorming solusi dan dokumentasi
+- **Terminal** - Antarmuka baris perintah untuk menjalankan perintah Linux dan Docker
+- **Notepad** - Editor teks sederhana untuk catatan cepat dan editing
+
 ---
 
 ## 2. FUNGSI MASING-MASING SERVICE
