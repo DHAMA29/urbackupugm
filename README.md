@@ -13,11 +13,11 @@
 
 Tools yang digunakan dalam pengembangan dan dokumentasi proyek ini:
 
-- **Visual Studio Code (VSCode)** - Code editor untuk mengedit file konfigurasi dan dokumentasi
-- **GitHub Copilot Agent** - AI assistant untuk membantu coding dan troubleshooting
-- **ChatGPT** - AI assistant untuk brainstorming solusi dan dokumentasi
-- **Terminal** - Command line interface untuk menjalankan perintah Linux dan Docker
-- **Notepad** - Text editor sederhana untuk quick notes dan editing
+- **Visual Studio Code (VSCode)** - Editor kode untuk mengedit file konfigurasi dan dokumentasi
+- **GitHub Copilot Agent** - Asisten AI untuk membantu coding dan troubleshooting
+- **ChatGPT** - Asisten AI untuk brainstorming solusi dan dokumentasi
+- **Terminal** - Antarmuka baris perintah untuk menjalankan perintah Linux dan Docker
+- **Notepad** - Editor teks sederhana untuk catatan cepat dan editing
 
 ---
 
