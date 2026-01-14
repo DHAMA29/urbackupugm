@@ -9,7 +9,19 @@
 
 ---
 
-## 1. TUJUAN PROYEK
+## 1. TOOLS YANG DIGUNAKAN
+
+Tools yang digunakan dalam pengembangan dan dokumentasi proyek ini:
+
+- **Visual Studio Code (VSCode)** - Editor kode untuk mengedit file konfigurasi dan dokumentasi
+- **GitHub Copilot Agent** - Asisten AI untuk membantu coding dan troubleshooting
+- **ChatGPT** - Asisten AI untuk brainstorming solusi dan dokumentasi
+- **Terminal** - Antarmuka baris perintah untuk menjalankan perintah Linux dan Docker
+- **Notepad** - Editor teks sederhana untuk catatan cepat dan editing
+
+---
+
+## 2. TUJUAN PROYEK
 
 Membangun sistem backup dan restore terpusat menggunakan UrBackup untuk melindungi data dari:
 - **Alfresco** - Document Management System
@@ -32,7 +44,7 @@ Tools yang digunakan dalam pengembangan dan dokumentasi proyek ini:
 
 ---
 
-## 2. FUNGSI MASING-MASING SERVICE
+## 3. FUNGSI MASING-MASING SERVICE
 
 ### Alfresco 7.4.1
 **Fungsi:** Document Management System (DMS) untuk manajemen dokumen enterprise
@@ -63,7 +75,7 @@ Tools yang digunakan dalam pengembangan dan dokumentasi proyek ini:
 
 ---
 
-## 3. ARSITEKTUR YANG DIBANGUN
+## 4. ARSITEKTUR YANG DIBANGUN
 
 ```
 ┌─────────────────────────────────────────────┐
@@ -93,7 +105,7 @@ Tools yang digunakan dalam pengembangan dan dokumentasi proyek ini:
 
 ---
 
-## 4. PROBLEM SOLVING - ERROR DAN SOLUSINYA
+## 5. PROBLEM SOLVING - ERROR DAN SOLUSINYA
 
 ### Problem #1: Volume Naming Mismatch ❌
 **Error:**
@@ -403,7 +415,7 @@ urbackupclientctl list-backupdirs
 
 ---
 
-## 5. PROSEDUR RESTORE STEP-BY-STEP
+## 6. PROSEDUR RESTORE STEP-BY-STEP
 
 ### Restore Testing (Folder Tertentu)
 ```bash
@@ -460,7 +472,7 @@ curl http://10.9.11.138:8082  # ownCloud
 
 ---
 
-## 6. KONFIGURASI PENTING
+## 7. KONFIGURASI PENTING
 
 ### File /etc/default/urbackupclient (YANG BENAR)
 ```ini
@@ -499,7 +511,7 @@ urbackupclientctl add-backupdir -d /backup-sources/postgres -f
 
 ---
 
-## 7. HASIL AKHIR
+## 8. HASIL AKHIR
 
 ### Status Sistem
 ✅ **UrBackup Server:** Running di Docker (uroni/urbackup-server:latest)  
@@ -528,7 +540,7 @@ urbackupclientctl add-backupdir -d /backup-sources/postgres -f
 
 ---
 
-## 8. COMMAND CHEATSHEET
+## 9. COMMAND CHEATSHEET
 
 ### Client Management
 ```bash
@@ -580,7 +592,7 @@ urbackupclientctl status | grep internet_status
 
 ---
 
-## 9. PELAJARAN PENTING
+## 10. PELAJARAN PENTING
 
 ### ✅ DO's
 1. **Selalu gunakan lowercase** untuk parameter internet_* di config client
@@ -606,7 +618,7 @@ urbackupclientctl status | grep internet_status
 
 ---
 
-## 10. TROUBLESHOOTING CEPAT
+## 11. TROUBLESHOOTING CEPAT
 
 | Gejala | Kemungkinan Penyebab | Solusi Cepat |
 |--------|---------------------|--------------|
@@ -621,7 +633,7 @@ urbackupclientctl status | grep internet_status
 
 ---
 
-## 11. KESIMPULAN
+## 12. KESIMPULAN
 
 Sistem backup dan restore menggunakan UrBackup berhasil diimplementasikan setelah mengatasi 8 masalah utama. Tantangan terbesar adalah **client configuration case sensitivity** yang memakan waktu paling lama untuk troubleshooting.
 
